@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box-header{
+    width: 100%;
+}
+/* sessão--------------------- */
+#inovacao{
+    width: 100%;
+}
+/* ------------------- */
+
+/* caixa--------------------- */
+.box-inovacao{
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+/* caixa--------------------- */
+
+.logo-nav{
+    width: 200px;
+}
+
+.box-inovacao h1{
+   margin-bottom: 20px;
+}
+
+.box-inovacao a{
+    border: 1px solid purple;
+    background: purple;
+    padding: 9px 99px;
+    color: white;
+}
+
+.primeira-imagem{
+    margin-top: 60px;
+    width: 300px;
+}
+/* fim da sessão inovação */
+
+/* inicio da sessão sobre */
+/* sessão--------------------- */
+#sobre{
+    width: 100%;
+    background: rgb(213, 244, 247);
+}
+/* ------------------- */
+
+/* caixa--------------------- */
+.box-sobre{
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+/* caixa--------------------- */
+/* fim  da sessão sobre */
+
+/* inicio da sessão o que famos */
+.container {
+    width: 600px;
+  }
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+  .card-white {
+    background: white;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    padding: 24px;
+    margin: 8px;
+    flex-grow: 1;
+  }
+  
+  .card-white img {
+    margin-left: 109px;
+    /* width: 100%; */
+    /* height: 180px; */
+    /* object-fit: cover; */
+    border-radius: 4px;
+  }
+  
+  .card-white h3 {
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .card-white p {
+    margin-bottom: 0;
+    text-align: center;
+  }
+  
+ 
+  
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 16px;
+  }
+
+
+/* fim da sessão o que famos */
+
+
+
+
+
+  /* --------------- */
+  /* sessão--------------------- */
+#botao{
+    width: 100%;
+}
+/* ------------------- */
+
+/* caixa--------------------- */
+.box-btn{
+    margin-top: 50px;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+/* caixa--------------------- */
+
+.btn-3{
+    border: 1px solid purple;
+    background: purple;
+    padding: 9px 99px;
+    color: white;
+}
+
+ /* sessão--------------------- */
+ #processo{
+    width: 100%;
+}
+/* ------------------- */
+
+/* caixa--------------------- */
+.box-processo{
+    margin-top: 50px;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+/* caixa--------------------- */
+
+/* inico do processo */
+
+#processo{
+    position: relative;
+    /* width: 700px; */
+    /* margin: 0 auto; */
+    /* height: 900px; */
+  
+}
+
+.titulo-processo{
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+    font-size: 30px;
+    margin-left: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.paragrafo-processo{
+    margin-bottom: 20px;
+    line-height: 38px;
+    font-size: 14px;
+    margin-left: 15px;
+    line-height: 30px;
+    color: rgb(94, 93, 93);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #5e5b5b;
+}
+
+.paragrafo-processo-roxo{
+    color: purple;
+    font-size: 17px;
+   }
+
+
+#processo h3{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size:32px ;
+}
+
+.segunda-imagem, .terceira-imagem, .quarta-imagem, .quinta-imagem{
+    width: 90%;
+}
+
+.gird-2{
+    display: grid;
+    grid-template-columns: 1fr
+}
+
+.container-3{
+    /* margin-left: 95px; */
+}
+
+/* fim do processo */
+
+/* inico do form */
+#form{
+    width: 100%;
+}
+/* ------------------- */
+
+/* caixa--------------------- */
+.box-form{
+    margin-top: 50px;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#form{
+    position: relative;
+    margin: 0 auto;
+    /* height: 200px; */
+}
+
+.titulo-form{
+    margin-top: 190px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: grid;
+}
+
+form {
+    /* margin: 40px 90; */
+    
+}
+
+.paragrafo-form{
+    /* margin-left: 26px; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	/* margin: 0 0 10px; */
+}
+
+.input-padrao {
+	display: block;
+    width: 76%;
+    margin-left: 34px;
+	padding: 16px 25px;
+    /* width: 100%; */
+    border: none;
+    border: 1px solid #ba6ed1;
+    background: #dea9ee;
+    border-radius: 5px;
+}
+
+#mensagem{
+    width: 76%;
+    margin-left: 34px;
+}
+
+.btn-4{
+    margin-top: 34px;
+    width: 80%;
+    margin-left: -6px;
+    border: none;
+    border: 1px solid purple;
+    background: purple;
+    border-radius: 5px;
+    padding: 13px;
+    color: white;
+
+}
+/* fim do form */
+
+ /* sessão--------------------- */
+ #redes{
+    width: 100%;
+    background: black;
+}
+/* ------------------- */
+
+/* caixa--------------------- */
+.box-redes{
+    margin-top: 50px;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+/* caixa--------------------- */
+
+h5{
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+   
+}
+
+.container10 h5{
+    color: white;
+}
+
+.redes-sociais{
+    width: 100px;
+}
+.redes-sociais2{
+    width: 100px;
+}

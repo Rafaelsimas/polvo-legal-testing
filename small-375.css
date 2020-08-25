@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box-header{
+    width: 100%;
+}
+/* sessão--------------------- */
+#inovacao{
+    width: 100%;
+}
+/* ------------------- */
+
+/* caixa--------------------- */
+.box-inovacao{
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+/* caixa--------------------- */
+
+.logo-nav{
+    width: 150px;
+}
+
+.box-inovacao h1{
+   margin-bottom: 20px;
+}
+
+.box-inovacao a{
+    border: 1px solid purple;
+    background: purple;
+    padding: 9px 99px;
+    color: white;
+}
+
+.primeira-imagem{
+    margin-top: 60px;
+    width: 300px;
+}
+/* fim da sessão inovação */
+
+/* inicio da sessão sobre */
+/* sessão--------------------- */
+#sobre{
+    width: 100%;
+    background: rgb(213, 244, 247);
+}
+/* ------------------- */
+
+/* caixa--------------------- */
+.box-sobre{
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+/* caixa--------------------- */
+/* fim  da sessão sobre */
+
+/* inicio da sessão o que famos */
+
+/* fim da sessão o que famos */
+
+
+
